@@ -1,0 +1,24 @@
+题 目
+  描述 Description	
+    输入两个自然数，输出他们的和
+  输入格式	
+    输出两个自然数 x,y
+  输出格式
+    一个数，即x和y的和
+  样例输入	
+    123 500
+  样例输出
+    623
+
+code
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cin>>a>>b;
+	int c;
+	c=a+b;
+	cout<<c<<endl;
+}
